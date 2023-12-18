@@ -2,5 +2,18 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="fraction.cpp">
+      <Filter>fraction</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="fraction">
+      <UniqueIdentifier>{04615c38-b399-41a9-b82b-0c8fac2f9199}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fraction.h">
+      <Filter>fraction</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
